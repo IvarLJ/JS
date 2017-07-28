@@ -16,7 +16,7 @@
     container
       .html(content)
       .css({left: -1000, top: -1000, opacity: 0})
-      .appendTo('body');
+      .appendTo('#test1');
 
     var height = container.height() + parseInt(container.css('padding-top'))  + parseInt(container.css('padding-bottom')),
         width = container.width() + parseInt(container.css('padding-left'))  + parseInt(container.css('padding-right')),
