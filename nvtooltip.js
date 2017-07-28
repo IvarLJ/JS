@@ -20,8 +20,8 @@
 
     var height = container.height() + parseInt(container.css('padding-top'))  + parseInt(container.css('padding-bottom')),
         width = container.width() + parseInt(container.css('padding-left'))  + parseInt(container.css('padding-right')),
-        windowWidth = $(window).width(),
-        windowHeight = $(window).height(),
+        windowWidth = $('#test1').width(),
+        windowHeight = $('#test1').height(),
         scrollTop = $('body').scrollTop(),  //TODO: also adjust horizontal scroll
         left, top;
 
